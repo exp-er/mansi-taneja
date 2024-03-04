@@ -1,0 +1,176 @@
+---
+import VectorOne from '../assets/ui-one.svg'
+import VectorTwo from '../assets/ui-two.svg'
+import VectorThree from '../assets/ui-three.svg'
+
+import Check from '../assets/check.svg'
+import Bolt from '../assets/bolt.svg'
+import Money from '../assets/money.svg'
+import Wallet from '../assets/wallet.svg'
+import Secure from '../assets/lock.svg'
+
+---
+
+
+<section class="product-brief" id="services">
+    <div class="container">
+
+
+        <!-- Feature Two -->
+        <div class="row product-brief-items">
+            <div class="brief-media center one-half column">
+                <img src={VectorTwo} class="md-width">
+            </div>
+
+            <div class="brief-tab one-half column">
+                <h3 class="h2-title">AI Marketing & Management</h3>
+                <p class="m-paragraph m-margin">Creative professional skilled in crafting compelling and shareable marketing and management strategies using Artifical Intelligence for content creation and flow, including writing, graphic design, and video production.</p>
+
+                <div class="brief-items">
+                 <div class="row m-margin">
+                    <div class="one-half column feature-grid">
+                        <img src={Bolt} alt="Fast connect">
+                        <p class="s-paragraph">Automating marketing workflow using AI.</p>
+                    </div>
+                    <div class="one-half column feature-grid">
+                        <img src={Money} alt="Money transfer">
+                        <p class="s-paragraph">Forecasting content consumption and sale strategies using AI.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="one-half column feature-grid">
+                        <img src={Wallet} alt="Digital wallet">
+                        <p class="s-paragraph">Content management to sustain theme, values, and mission.</p>
+                    </div>
+                    <div class="one-half column feature-grid">
+                        <img src={Secure} alt="Secure connection">
+                        <p class="s-paragraph">Leveraging AI for strategy and public retention.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+   
+        <!-- Feature One -->
+        <div class="row product-brief-items">
+            <div class="brief-tab one-half column">
+                <h3 class="h2-title">Brand Strategy</h3>
+                <p class="m-paragraph m-margin">Strategic thinker with a proven track record in brand development, positioning, and creating cohesive brand identities that resonate with target audiences.</p>
+
+
+               <div class="brief-items">
+                 <div class="row m-margin">
+                    <div class="one-half column feature-grid">
+                        <img src={Bolt} alt="Fast connect">
+                        <p class="s-paragraph">Understanding and communicating brand values, mission and image.</p>
+                    </div>
+                    <div class="one-half column feature-grid">
+                        <img src={Money} alt="Money transfer">
+                        <p class="s-paragraph">Curating partnership proposals for brand connections.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="one-half column feature-grid">
+                        <img src={Wallet} alt="Digital wallet">
+                        <p class="s-paragraph">Evaluating content consistently to sustain brand image.</p>
+                    </div>
+                    <div class="one-half column feature-grid">
+                        <img src={Secure} alt="Secure connection">
+                        <p class="s-paragraph">Managing and Strategising content based on brand and societal changes</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="brief-media center one-half column">
+                <img src={VectorOne} class="md-width">
+            </div>
+        </div>
+
+
+
+     <!-- Feature One -->
+      <div class="row product-brief-items">
+
+        <div class="brief-media center one-half column">
+            <img src={VectorThree} class="md-width">
+        </div>
+        
+         <div class="brief-tab one-half column">
+            <h3 class="h2-title">Social Media Management</h3>
+            <p class="m-paragraph m-margin">Expert in devising and executing impactful social media strategies, fostering community engagement, and optimizing reach across platforms.</p>
+
+
+            <div class="brief-items">
+                <div class="row m-margin">
+                <div class="one-half column feature-grid">
+                    <img src={Bolt} alt="Fast connect">
+                    <p class="s-paragraph">Content Management aligning with latest trends and algorithm.</p>
+                </div>
+                <div class="one-half column feature-grid">
+                    <img src={Money} alt="Money transfer">
+                    <p class="s-paragraph">Consitent scheduling of content.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="one-half column feature-grid">
+                    <img src={Wallet} alt="Digital wallet">
+                    <p class="s-paragraph">Leveraging other brands and content creators to improve reach.</p>
+                </div>
+                <div class="one-half column feature-grid">
+                    <img src={Secure} alt="Secure connection">
+                    <p class="s-paragraph">Strategiesing content connection between platforms to maximise customer base.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+ </section>
+
+
+ <style lang="scss">
+
+.product-brief{
+  background-color: var(--tenary);
+  .hero-brand{
+    padding-bottom: 50px;
+    .brands{
+      margin-top: 15px;
+    }
+  }
+  .product-brief-items{
+    margin-bottom: 100px;
+    .brief-tab{
+      padding-top: 50px;
+    }
+  }
+
+  .feature-grid{
+    display: flex;
+    p{
+      margin: 0 0 0 10px;
+    }
+    img{
+      width: 25px;
+      margin-top: -10px;
+    }
+  }
+
+  .brief-media{
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+    background-color: #f2f5f9;
+    padding-top: 40px;
+  }
+
+  @media (max-width:700px) {
+    .brief-tab{
+        margin-left: 20px;
+    }
+  }
+}
+ </style>
